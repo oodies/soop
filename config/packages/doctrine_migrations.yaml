@@ -1,0 +1,13 @@
+#
+# This file is part of SOOP project.
+#
+# (c) Sébastien CHOMY <sebastien.chomy@gmail.com>
+#
+# This source file is subject to the MIT license that is bundled
+# with this source code in the file LICENSE.
+#
+doctrine_migrations:
+    dir_name: '%kernel.project_dir%/src/Migrations'
+    # namespace is arbitrary but should be different from App\Migrations
+    # as migrations classes should NOT be autoloaded
+    namespace: DoctrineMigrations
